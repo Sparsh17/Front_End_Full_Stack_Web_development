@@ -1,0 +1,55 @@
+/*
+TASK 1: Set the width of the image globally to 100%. This will make all the images width equal to the width of its parent.
+
+TASK 2: Set an id to the parent of the first image( i.e. 'coding-ninjas-logo.png') to "logo" and set the absolute width of the image to 210px.
+
+TASK 3: Change the width of the blog content from '1000px' to '90%' of the viewport width.
+TASK 4: Change the size of the text of element with id 'site-title' to '1.8rem'.
+*/
+
+img {
+    width: 100%;
+}
+
+#logo-img {
+    width: 210px;
+}
+
+#blog-content {
+    width: 90%
+}
+
+
+/*-----header-----*/
+#site-title a {
+    font-size: 1.8rem;
+    color: #1a1a1a;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#site-title a:hover {
+    color: #dc6520;
+}
+
+#about-site {
+    color: #3c5349;
+}
+
+
+
+/*-----main-----*/
+#blog-header h1 {
+    color: #13222c;
+    font-family: sans-serif;
+}
+
+#blog-content {
+    width: 1000px;
+}
+
+.h-style {
+    color: #13222c;
+}
+
+
