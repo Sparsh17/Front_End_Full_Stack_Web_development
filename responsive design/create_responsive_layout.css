@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+.res {
+    width: 32%;
+    margin: 0.5%;
+    height: 300px;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+    .res {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+}
+
+.red {
+    background-color: #ff8989;
+}
+
+.green {
+    background-color: #88f7ce;
+}
+
+.blue {
+    background-color: #e29df2;
+}
+

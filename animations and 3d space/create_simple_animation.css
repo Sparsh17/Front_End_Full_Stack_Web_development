@@ -1,0 +1,14 @@
+#div1 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    left: 10%;
+    top: 10%;
+    position: absolute;
+    transition: 2s ease-in-out;
+}
+
+#div1:hover {
+    transform: scale(0.8) translate(200px);
+    border-radius: 50%;
+}
